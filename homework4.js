@@ -4,7 +4,7 @@ const addKeyboardLayout = str => {
 	const topLine = abc.slice(0, 12);
 	const middleLine = abc.slice(12, 23);
 	const bottomLine = abc.slice(23);
-	const keyboard = [];
+	let keyboard = [];
 	keyboard[0] = topLine;
 	keyboard[1] = middleLine;
 	keyboard[2] = bottomLine;
