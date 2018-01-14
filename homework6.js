@@ -16,7 +16,7 @@ let keyTrainer = {
 		if ((num > 0) && (num % 1 == 0) && (isNaN(num) === false)){
 			return true;
 		} else {
-			eturn false;
+			return false;
 		}
 	},
 	task: [],
