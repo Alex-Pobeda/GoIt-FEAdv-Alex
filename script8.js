@@ -16,7 +16,7 @@ let pressedKey = function(e){
 			let note = buttons[i].getAttribute("data-note");
 			buttons[i].classList.add("keyboard__btn--active");
 			playSound(note);
-		} else if ((buttons[i].textContent == "space") && (keys.indexOf(keyName) == -1) && input){
+		} else if ((buttons[i].textContent == "space" && keyName == " ") && (keys.indexOf(keyName) == -1) && input){
 			let note = buttons[i].getAttribute("data-note");
 			buttons[i].classList.add("keyboard__btn--active");
 			playSound(note);
